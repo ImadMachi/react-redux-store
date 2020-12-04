@@ -1,0 +1,28 @@
+.not-found {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found__404 {
+  font-size: 20rem;
+  margin: 0;
+  color: var(--dark-purple);
+}
+.not-found__message {
+  font-size: var(--xxl-size);
+  margin: 0 0 var(--m-size);
+}
+.not-found__home {
+  font-size: var(--l-size);
+  padding: var(--xs-size) var(--m-size);
+  color: var(--dark-blue);
+  border: 2px solid var(--dark-blue);
+  border-radius: var(--xs-size);
+  transition: 0.5s;
+}
+.not-found__home:hover {
+  color: var(--white);
+  background-color: var(--dark-blue);
+}

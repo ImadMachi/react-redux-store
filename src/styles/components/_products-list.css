@@ -1,0 +1,22 @@
+.list__title {
+  color: var(--dark-purple);
+  text-transform: capitalize;
+  text-align: center;
+  font-size: var(--xxl-size);
+  margin-bottom: var(--xxl-size);
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 40rem));
+  justify-content: center;
+  gap: var(--l-size);
+  justify-items: center;
+  margin-bottom: var(--xxl);
+}
+
+@media all and (min-width: 768px) {
+  .list-container {
+    padding: 0 5rem;
+  }
+}

@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: var(--m-size);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--light-gray);
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 150px;
+}
+
+main {
+  padding: 0 var(--m-size);
+  max-width: 12 0rem;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+  button {
+    cursor: pointer;
+  }
+}

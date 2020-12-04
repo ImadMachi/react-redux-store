@@ -1,0 +1,10 @@
+@import "./base/_setting.css";
+@import "./base/_base.css";
+@import "./components/_header.css";
+@import "./components/_products-list.css";
+@import "./components/_product-card.css";
+@import "./components/_product-page.css";
+@import "./components/_cart-page.css";
+@import "./components/_incart-product.css";
+@import "./components/_footer.css";
+@import "./components/_not-found.css";
